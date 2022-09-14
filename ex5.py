@@ -1,4 +1,4 @@
-def creareListaFloat(n):
+def listafloat(n):
     lista = []
     for i in range(n):
         element = input('Dati un element de tip float: ')
@@ -10,4 +10,4 @@ def creareListaFloat(n):
             lista.append(float(element))
     return lista
 
-print(creareListaFloat(5))
+print(listafloat(5))
