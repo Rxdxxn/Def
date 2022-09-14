@@ -1,4 +1,4 @@
-def creareListaInt(n):
+def listaint(n):
     lista = []
     for i in range(n):
         element = input('Dati un element de tip integer: ')
@@ -10,5 +10,5 @@ def creareListaInt(n):
             lista.append(int(element))
     return lista
 
-print(creareListaInt(5))
+print(listaint(5))
 
